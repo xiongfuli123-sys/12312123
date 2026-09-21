@@ -42,6 +42,7 @@ import insurance.model.listeners.CustomerListener;
 public class CustomerEditor extends EntityEditor
 implements CustomerListener {
 
+
 	private Customer customer;
 	private Text lastNameText;
 	private Text firstNameText;

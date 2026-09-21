@@ -25,6 +25,7 @@ public class AutoPolicyImpl extends PolicyImpl implements AutoPolicy {
     public AutoPolicyImpl(Customer c) {
     	super(c);
     	this.type = PolicyType.AUTO;
+
     }
     
     /**
@@ -56,6 +57,7 @@ public class AutoPolicyImpl extends PolicyImpl implements AutoPolicy {
     public void setNoClaims(boolean noClaims) {
         this.noClaims = noClaims;
         notifyListeners();
+        int t=1;
     }
     
     /**

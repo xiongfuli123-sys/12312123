@@ -1,0 +1,7 @@
+target/
+out/
+.tools/
+*.iml
+.idea/workspace.xml
+.idea/shelf/
+cp.txt
